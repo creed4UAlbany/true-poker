@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 ### 1. Clone and Install
 ```bash
 # Clone the repository
-git clone https://github.com/creed4UAlbany/true-poker.git
+git clone [https://github.com/creed4UAlbany/true-poker.git](https://github.com/creed4UAlbany/true-poker.git)
 
 # Install Client Dependencies
 cd client
@@ -28,10 +28,24 @@ npm install
 ```
 
 ### 2. Environment Variables
-Create a `.env` file in the `server/` directory with the following:
+You must create **two** `.env` files to run the application locally.
+
+**A. Server Variables**
+Create a `.env` file in the `server/` directory:
 ```env
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
+```
+
+**B. Client Variables (Firebase)**
+Create a `.env` file in the `client/` directory:
+```env
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
 ```
 
 ### 3. Run the Application
