@@ -4,7 +4,7 @@ A full-stack, real-time Poker application built with React, Express, and MongoDB
 
 ## 🔗 Project Links (Rubric Requirements)
 * **Live Application:** https://true-poker.uk.r.appspot.com
-* **Video Demonstration:** [INSERT YOUR YOUTUBE/VIDEO LINK HERE]
+* **Video Demonstration:** https://youtu.be/drpBs6iBfLU
 * **GitHub Repository:** https://github.com/creed4UAlbany/true-poker.git
 
 ---
