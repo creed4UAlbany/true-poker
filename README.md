@@ -5,7 +5,7 @@ A full-stack, real-time Poker application built with React, Express, and MongoDB
 ## 🔗 Project Links (Rubric Requirements)
 * **Live Application:** https://true-poker.uk.r.appspot.com
 * **Video Demonstration:** [INSERT YOUR YOUTUBE/VIDEO LINK HERE]
-* **GitHub Repository:** [INSERT YOUR GITHUB REPO LINK HERE]
+* **GitHub Repository:** https://github.com/creed4UAlbany/true-poker.git
 
 ---
 
@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 ### 1. Clone and Install
 ```bash
 # Clone the repository
-git clone [INSERT YOUR REPO LINK HERE]
+git clone https://github.com/creed4UAlbany/true-poker.git
 
 # Install Client Dependencies
 cd client
