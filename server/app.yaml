@@ -1,0 +1,6 @@
+runtime: nodejs20
+env: standard
+instance_class: F1
+
+env_variables:
+  MONGO_URI: "mongodb+srv://crreed0114_db_user:Robert0114@cluster0.sb3akdg.mongodb.net/"

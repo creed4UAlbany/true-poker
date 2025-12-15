@@ -1,0 +1,23 @@
+{
+  "name": "True Poker Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "rangav.vscode-thunder-client",
+        "mongodb.mongodb-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 5173],
+  "portsAttributes": {
+    "3000": { "label": "Backend (Express)", "onAutoForward": "notify" },
+    "5173": { "label": "Frontend (React)", "onAutoForward": "notify" }
+  },
+  "postCreateCommand": "echo 'Container Ready. Run npm install in client and server folders.'"
+}
